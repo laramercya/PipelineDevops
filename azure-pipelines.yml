@@ -6,10 +6,9 @@
 trigger:
 - main
 
-pool: TestAgent
+pool: Test-my-computer
 
 steps:
-
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
