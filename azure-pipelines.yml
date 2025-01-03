@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: testagent
+pool: Test-my-computer
 
 steps:
 - task: Maven@4
